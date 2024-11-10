@@ -1,6 +1,9 @@
+<script setup>
+</script>
 <template>
-    <div>
-        about
-    </div>
-    <card></card>
+  <div>
+    前台 About
+  </div>
+  <card></card>
 </template>
+<style scoped></style>

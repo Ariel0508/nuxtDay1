@@ -2,7 +2,7 @@
 const route = useRoute();
 </script>
 <template>
-  <h1>page: 首頁</h1>
+  <h1>page: 前台首頁</h1>
   <p>目前路由的路徑 - route.fullPath 為 : {{ route.fullPath }}</p>
   <button type="button" class="btn btn-primary">Primary</button>
   <button type="button" class="btn btn-secondary">Secondary</button>
@@ -12,7 +12,6 @@ const route = useRoute();
   <button type="button" class="btn btn-info">Info</button>
   <button type="button" class="btn btn-light">Light</button>
   <button type="button" class="btn btn-dark">Dark</button>
-
   <button type="button" class="btn btn-link">Link</button>
 </template>
 
@@ -21,5 +20,4 @@ h1 {
   color: $primary;
   line-height: $line-height-lg;
 }
-
 </style>

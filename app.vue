@@ -1,10 +1,17 @@
 <template>
   <div>
-  <!-- 輔助障礙者的工具，可不使用 -->
+    <!-- 輔助障礙者的工具，可不使用 -->
     <!-- <NuxtRouteAnnouncer /> -->
     <!-- <NuxtWelcome /> -->
-    <NuxtLink to="/">home</NuxtLink>|
-    <NuxtLink to="/about">about</NuxtLink>
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+<style>
+.list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+</style>
